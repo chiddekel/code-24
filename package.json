@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chiddekel/code-24/issues"
   },
-  "homepage": "https://github.com/chiddekel/code-24#readme"
+  "homepage": "https://github.com/chiddekel/code-24#readme",
+  "dependencies": {
+    "@angular/cli": "^8.1.2"
+  }
 }
