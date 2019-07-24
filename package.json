@@ -1,0 +1,19 @@
+{
+  "name": "code-24",
+  "version": "1.0.0",
+  "description": "<!--   BEFORE UPDATING THIS FILE, READ THIS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiddekel/code-24.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chiddekel/code-24/issues"
+  },
+  "homepage": "https://github.com/chiddekel/code-24#readme"
+}
