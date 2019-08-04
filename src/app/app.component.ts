@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'code-24 work in progress.';
+  copyright = '© Adam Łangowicz 2019';
 }
