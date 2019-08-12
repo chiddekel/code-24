@@ -9,7 +9,7 @@ import * as faker from 'faker';
 export class AppComponent {
   people;
 
-  title = 'code-24.';
+  title = 'code-24';
   copyright = '© Adam Łangowicz 2019';
   items = Array.from({length: 100000}).map((_, i) => `Item #${i}`);
 
