@@ -3623,3 +3623,8 @@
     animation-iteration-count: 1 !important;
   }
 }
+
+body {
+    margin:0;
+    padding:0;
+}
