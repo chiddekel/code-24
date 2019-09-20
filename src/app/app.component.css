@@ -1,8 +1,19 @@
+div.phone {
+  position: relative;
+  margin: 0 auto;
+  width:454px;
+  height:600px;
+  background: url('../assets/smartphone-1557796_640.png ') no-repeat;
+  background-size: 453px 600px;
+}
+
 cdk-virtual-scroll-viewport {
-    height: 30vh;
-    width: auto;
-    margin: 0 auto;
+  position: absolute;
+    height: 72vh;
+    width: 256px;
     display: flex;
+    left:96px;
+    top:83px;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -10,9 +21,9 @@ cdk-virtual-scroll-viewport {
     list-style: none;
 }
   
-  li { height: 150px;
+  li { height: 180px;
     margin: 20px;
-    padding: 20px;
+    padding: 5px;
     background: whitesmoke;
     
     box-shadow: 3px 3px 4px #88888834;
