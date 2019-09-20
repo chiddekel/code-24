@@ -9,7 +9,7 @@ div.phone {
 
 cdk-virtual-scroll-viewport {
   position: absolute;
-    height: 72vh;
+    height: 432px;
     width: 256px;
     display: flex;
     left:96px;
