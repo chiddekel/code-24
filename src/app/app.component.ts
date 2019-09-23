@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import * as faker from 'faker';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,7 @@ export class AppComponent {
   copyright = '© Adam Łangowicz 2019';
   items = Array.from({length: 100000}).map((_, i) => `Item #${i}`);
 
-  constructor() {
+  constructor(private toastr: ToastrService) {
     this.people = Array(100)
       .fill(1)
       .map(_ => {
@@ -23,5 +24,11 @@ export class AppComponent {
 
         };
       });
+
+    this.showSucess();
+  }
+
+  showSucess() {
+    this.toastr.info('adam.langowicz@yahoo.com', 'Contact, e-mail:', { enableHtml :  true});
   }
 }
