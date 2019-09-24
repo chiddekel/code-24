@@ -29,6 +29,6 @@ export class AppComponent {
   }
 
   showSucess() {
-    this.toastr.info('adam.langowicz@yahoo.com', 'Contact, e-mail:', { enableHtml :  true});
+    this.toastr.info('6164616D2E6C616E676F7769637A407961686F6F2E636F6D', '652D6D61696C3A', { enableHtml :  true});
   }
 }
