@@ -19,15 +19,24 @@
   <div id="webglCanvas">
     
   </div>
-<h2>Quick pdf preview.</h2>
-<label for="file">Press to load:</label>
-<input type="file" value="new" (change)="onFileSelected()" id="file" style="color:white;visibility: hidden">
+  <h1> Random notes:</h1>
+  <ul>
+    <li>Flatpak</li>
+  </ul>
+  <h2>Direct remove and re-add nuvola repo.</h2> 
+flatpak remote-delete --force nuvola
+flatpak remote-add nuvola --from https://dl.tiliado.eu/flatpak/nuvola.flatpakrepo
+flatpak update
+  
+<!-- <h2>Quick pdf preview.</h2> -->
+<!-- <label for="file">Press to load:</label> -->
+<!-- <input type="file" value="new" (change)="onFileSelected()" id="file" style="color:white;visibility: hidden"> -->
 
-<div class="pdf-container" style="min-height: 600px;">
-  <pdf-viewer  [src]="this.src"
-              [original-size]="false"
-  ></pdf-viewer>
-</div>
+<!-- <div class="pdf-container" style="min-height: 600px;"> -->
+<!--   <pdf-viewer  /\[src]="this.src" -->
+<!--               [original-size]="false" -->
+<!--   ></pdf-viewer> -->
+<!-- </div> -->
 
 </div>
 
